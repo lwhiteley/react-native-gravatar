@@ -12,6 +12,7 @@
   },
   "keywords": [
     "react",
+    "react-native-gravatar",
     "react-native",
     "ios",
     "android",
@@ -25,7 +26,6 @@
   },
   "homepage": "https://github.com/lwhiteley/react-native-gravatar#readme",
   "dependencies": {
-    "gravatar-api": "^1.2.5",
-    "react-native": "^0.21.0"
+    "gravatar-api": "^1.2.5"
   }
 }
