@@ -26,15 +26,19 @@ class MyComponent extends Component {
         <Gravatar options={{
               email: 'example@gmail.com',
               parameters: { "size": "200", "d": "mm" },
-              secure: true }
-            } style={styles.profileImage}/>
+              secure: true
+            }}
+            style={styles.roundedProfileImage} />
       </View>
     )
   }
 }
 
 var styles = StyleSheet.create({
-  profileImage: {width:100,height:100,borderWidth:3,borderColor:'white',borderRadius:50},
+  roundedProfileImage: {
+    width:100, height:100, borderWidth:3,
+    borderColor:'white', borderRadius:50
+  }
 })
 
 ```
