@@ -1,8 +1,9 @@
-var React = require('react-native');
+var ReactNative = require('react-native');
+var React = require('react');
 var gravatarApi = require('gravatar-api');
-var {Image, Component} = React;
+var {Image} = ReactNative;
 
-class Gravatar extends Component {
+class Gravatar extends React.Component {
   constructor(props) {
       super(props);
     }
