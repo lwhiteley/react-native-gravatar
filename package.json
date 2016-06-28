@@ -1,6 +1,6 @@
 {
   "name": "react-native-gravatar",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "react-native wrapper for gravatar-api",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,9 @@
     "ios",
     "android",
     "gravatar",
-    "gravatar-api"
+    "gravatar-api",
+    "profile",
+    "image"
   ],
   "author": "Layton Whiteley",
   "license": "MIT",
@@ -28,6 +30,6 @@
   },
   "homepage": "https://github.com/lwhiteley/react-native-gravatar#readme",
   "dependencies": {
-    "gravatar-api": "^1.3.4"
+    "gravatar-api": "^1.4.0"
   }
 }

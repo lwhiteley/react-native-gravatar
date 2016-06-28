@@ -12,11 +12,9 @@ npm install --save react-native-gravatar
 eg.
 
 ```js
-var React = require('react-native');
-var {StyleSheet, Component} = React;
-
-var gravatar = require('react-native-gravatar');
-var {Gravatar, GravatarApi} = gravatar;
+import React, { Component } from 'react';
+import {StyleSheet} from 'react-native';
+import {Gravatar, GravatarApi} from 'react-native-gravatar';
 
 class MyComponent extends Component {
 	render() {
