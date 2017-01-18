@@ -16,7 +16,7 @@ class Gravatar extends Component {
 	}
 }
 
-export default {
-  Gravatar: Gravatar,
-  GravatarApi: gravatarApi
+export {
+  Gravatar,
+  gravatarApi as GravatarApi
 }
