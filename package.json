@@ -1,6 +1,6 @@
 {
   "name": "react-native-gravatar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react-native wrapper for gravatar-api",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/lwhiteley/react-native-gravatar#readme",
   "dependencies": {
-    "gravatar-api": "^1.4.0"
+    "gravatar-api": "^1.5.0"
   }
 }
